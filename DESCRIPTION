@@ -1,0 +1,22 @@
+Package: newrpackage
+Type: Package
+Title: FARS Data Retrieval
+Version: 0.1.0
+Author: Nursen
+Maintainer: Nursen <linda.grinder@gmail.com>
+Description: This package gives the FARS data associated with state and year.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    graphics,
+    maps,
+    readr,
+    tidyr
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.1.0
